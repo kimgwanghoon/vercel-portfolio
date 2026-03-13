@@ -231,7 +231,7 @@ export const techStacks = {
   "외부 연동": ["RESTful API", "PG 결제 시스템", "실시간 데이터 전송"],
   "스케줄러": ["Quartz", "Spring Scheduler"],
   "프론트엔드": ["JSP", "Thymeleaf", "jQuery", "JavaScript"],
-  "Tool": ["IntelliJ IDEA", "Git", "Slack", "GitHub Codex", "Claude Code"]
+  "Tool": ["IntelliJ IDEA", "Git", "GitHub", "Slack", "Codex", "Claude Code"]
 };
 
 export const keyCompetencies = [
@@ -271,10 +271,8 @@ export const keyCompetencies = [
 ];
 
 export const stats = {
-  totalCommits: 341,
   projectCount: "25+",
   experience: "7년 11개월",
   largeProjects: 3,
-  paymentSuccessRate: "99.9%",
   barcodeRecognitionRate: "99.5%"
 };
