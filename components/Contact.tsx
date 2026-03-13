@@ -8,8 +8,30 @@ export default function Contact() {
 
         <div className="bg-white dark:bg-gray-800 p-8 md:p-12 rounded-lg shadow-lg">
           <p className="text-xl mb-8 text-gray-700 dark:text-gray-300">
-            프로젝트 문의나 협업 제안이 있으시다면 언제든지 연락주세요!
+            새로운 도전과 성장 기회를 찾고 있습니다.
           </p>
+
+          <div className="mb-8 text-left max-w-2xl mx-auto">
+            <h3 className="font-semibold text-lg mb-4 text-gray-800 dark:text-gray-200">이런 환경을 선호합니다</h3>
+            <ul className="space-y-2 text-gray-600 dark:text-gray-400">
+              <li className="flex items-start">
+                <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
+                <span>기술적 성장과 학습을 장려하는 문화</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
+                <span>코드 리뷰와 동료 간 지식 공유가 활발한 조직</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
+                <span>비즈니스 가치를 만들어내는 실질적인 문제 해결</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
+                <span>성능 최적화와 시스템 안정성을 중요하게 여기는 팀</span>
+              </li>
+            </ul>
+          </div>
 
           <div className="space-y-4">
             <div className="flex items-center justify-center gap-3">
@@ -39,7 +61,7 @@ export default function Contact() {
 
           <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
             <p className="text-gray-600 dark:text-gray-400">
-              함께 성장하며 좋은 결과를 만들어가고 싶습니다.
+              채용 관련 문의는 이메일로 연락 부탁드립니다.
             </p>
           </div>
         </div>

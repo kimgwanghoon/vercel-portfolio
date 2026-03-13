@@ -3,7 +3,7 @@ export const personalInfo = {
   title: "Backend Developer",
   email: "khkimykk@naver.com",
   phone: "010-2811-0463",
-  introduction: "주차관제, 검색시스템 등 다양한 도메인에서 실시간 API와 연동 로직을 설계하고 구현해온 백엔드 개발자입니다. 사용자 관점에서 운영 편의성을 고민하고 지속적으로 개선해 왔으며, 새로운 기술을 배우고 팀과 지식을 공유하는것을 즐깁니다."
+  introduction: "7년 이상의 백엔드 개발 경험을 바탕으로 복잡한 비즈니스 로직을 안정적인 시스템으로 구현하는 개발자입니다. Spring Boot와 JPA를 활용한 대규모 주차관제 시스템 개발을 주도했으며, 성능 최적화를 통해 응답 속도 97% 단축, 마감 시간 80% 개선 등 실질적인 성과를 만들어왔습니다. 문제의 본질을 파악하고 확장 가능한 아키텍처로 해결하는 것을 중요하게 생각합니다."
 };
 
 export const skills = [
@@ -228,10 +228,10 @@ export const otherProjects = [
 export const techStacks = {
   "백엔드 개발": ["Spring Boot", "JPA/Hibernate", "MyBatis", "Java"],
   "데이터베이스": ["MySQL", "PostgreSQL", "MSSQL"],
-  "외부 연동": ["RESTful API", "결제 시스템 (PG, 카카오페이)", "실시간 데이터 전송"],
+  "외부 연동": ["RESTful API", "PG 결제 시스템", "실시간 데이터 전송"],
   "스케줄러": ["Quartz", "Spring Scheduler"],
   "프론트엔드": ["JSP", "Thymeleaf", "jQuery", "JavaScript"],
-  "기타": ["LPR 연동", "바코드/QR 스캐너", "Git"]
+  "Tool": ["IntelliJ IDEA", "Git", "Slack", "GitHub Codex", "Claude Code"]
 };
 
 export const keyCompetencies = [
@@ -247,7 +247,7 @@ export const keyCompetencies = [
     title: "외부 연동",
     items: [
       "RESTful API 설계 및 구현",
-      "결제 시스템 연동 (PG, 카카오페이)",
+      "PG 결제 시스템 연동 및 안정화",
       "실시간 데이터 전송 및 동기화"
     ]
   },
@@ -273,7 +273,7 @@ export const keyCompetencies = [
 export const stats = {
   totalCommits: 341,
   projectCount: "25+",
-  experience: "약 3년",
+  experience: "7년 11개월",
   largeProjects: 3,
   paymentSuccessRate: "99.9%",
   barcodeRecognitionRate: "99.5%"
