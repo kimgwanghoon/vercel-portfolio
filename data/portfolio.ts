@@ -271,8 +271,6 @@ export const keyCompetencies = [
 ];
 
 export const stats = {
-  projectCount: "25+",
   experience: "7년 11개월",
-  largeProjects: 3,
-  barcodeRecognitionRate: "99.5%"
+  projectCount: "25+"
 };

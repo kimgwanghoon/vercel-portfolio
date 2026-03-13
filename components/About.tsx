@@ -7,7 +7,7 @@ export default function About() {
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">About Me</h2>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-16">
+        <div className="grid grid-cols-2 gap-6 mb-16 max-w-2xl mx-auto">
           <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
             <div className="text-3xl font-bold text-blue-600 mb-2">{stats.experience}</div>
             <div className="text-gray-600 dark:text-gray-400">경력</div>
@@ -15,10 +15,6 @@ export default function About() {
           <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
             <div className="text-3xl font-bold text-blue-600 mb-2">{stats.projectCount}</div>
             <div className="text-gray-600 dark:text-gray-400">프로젝트</div>
-          </div>
-          <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
-            <div className="text-3xl font-bold text-blue-600 mb-2">{stats.barcodeRecognitionRate}</div>
-            <div className="text-gray-600 dark:text-gray-400">바코드 인식률</div>
           </div>
         </div>
 
