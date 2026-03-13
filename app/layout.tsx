@@ -5,6 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://gwanghoon-portfolio-pemqc6y6t-gwanghoons-projects.vercel.app'),
   title: '김광훈 | Backend Developer',
   description: '주차관제, 검색시스템 등 다양한 도메인에서 실시간 API와 연동 로직을 설계하고 구현해온 백엔드 개발자',
   keywords: ['Backend Developer', 'Spring Boot', 'Java', 'Portfolio', 'Kim Gwanghun'],
